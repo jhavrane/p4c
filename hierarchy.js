@@ -108,12 +108,12 @@ var hierarchy =
     ] ],
     [ "BFN::Alloc1Dbase< P4::cstring >", "class_b_f_n_1_1_alloc1_dbase.html", [
       [ "BFN::Alloc1D< P4::cstring, ADB_BYTES >", "class_b_f_n_1_1_alloc1_d.html", null ],
-      [ "BFN::Alloc1D< P4::cstring, HASH_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ],
+      [ "BFN::Alloc1D< P4::cstring, TofinoIXBarSpec::HASH_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, SRAM_ROWS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, STATS_ALUS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, METER_ALUS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, ADB_BYTES >", "class_b_f_n_1_1_alloc1_d.html", null ],
-      [ "BFN::Alloc1D< P4::cstring, HASH_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ],
+      [ "BFN::Alloc1D< P4::cstring, TofinoIXBarSpec::HASH_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, SRAM_ROWS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, STATS_ALUS >", "class_b_f_n_1_1_alloc1_d.html", null ],
       [ "BFN::Alloc1D< P4::cstring, METER_ALUS >", "class_b_f_n_1_1_alloc1_d.html", null ]
@@ -123,8 +123,8 @@ var hierarchy =
       [ "BFN::Alloc1D< std::pair< P4::cstring, int >, SRAM_ROWS - 1 >", "class_b_f_n_1_1_alloc1_d.html", null ]
     ] ],
     [ "BFN::Alloc1Dbase< std::pair< PHV::Container, int > >", "class_b_f_n_1_1_alloc1_dbase.html", [
-      [ "BFN::Alloc1D< std::pair< PHV::Container, int >, BYTE_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ],
-      [ "BFN::Alloc1D< std::pair< PHV::Container, int >, BYTE_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ]
+      [ "BFN::Alloc1D< std::pair< PHV::Container, int >, TofinoIXBarSpec::BYTE_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ],
+      [ "BFN::Alloc1D< std::pair< PHV::Container, int >, TofinoIXBarSpec::BYTE_GROUPS >", "class_b_f_n_1_1_alloc1_d.html", null ]
     ] ],
     [ "BFN::Alloc1Dbase< std::vector< HashDistribution * > >", "class_b_f_n_1_1_alloc1_dbase.html", [
       [ "BFN::Alloc1D< std::vector< HashDistribution * >, 6 >", "class_b_f_n_1_1_alloc1_d.html", null ],
@@ -169,10 +169,10 @@ var hierarchy =
     [ "BFN::Alloc2Dbase< P4::cstring >", "class_b_f_n_1_1_alloc2_dbase.html", [
       [ "BFN::Alloc2D< P4::cstring, ActionData::SLOT_TYPES, OUTPUTS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, RANDOM_NUMBER_GENERATORS, IMMED_SECT >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_INDEX_GROUPS >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_SINGLE_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_DIST_SLICES >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_DIST_SLICES *HASH_DIST_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_INDEX_GROUPS >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_SINGLE_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_DIST_SLICES >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_DIST_SLICES *TofinoIXBarSpec::HASH_DIST_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, IMEM_ROWS, IMEM_COLORS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, SRAM_ROWS, SRAM_COLUMNS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, SRAM_ROWS, STASH_UNITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
@@ -185,10 +185,10 @@ var hierarchy =
       [ "BFN::Alloc2D< P4::cstring, 2, NUM_IDLETIME_BUS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, ActionData::SLOT_TYPES, OUTPUTS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, RANDOM_NUMBER_GENERATORS, IMMED_SECT >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_INDEX_GROUPS >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_SINGLE_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_DIST_SLICES >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< P4::cstring, HASH_TABLES, HASH_DIST_SLICES *HASH_DIST_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_INDEX_GROUPS >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_SINGLE_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_DIST_SLICES >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< P4::cstring, TofinoIXBarSpec::HASH_TABLES, TofinoIXBarSpec::HASH_DIST_SLICES *TofinoIXBarSpec::HASH_DIST_BITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, IMEM_ROWS, IMEM_COLORS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, SRAM_ROWS, SRAM_COLUMNS >", "class_b_f_n_1_1_alloc2_d.html", null ],
       [ "BFN::Alloc2D< P4::cstring, SRAM_ROWS, STASH_UNITS >", "class_b_f_n_1_1_alloc2_d.html", null ],
@@ -209,10 +209,10 @@ var hierarchy =
       [ "BFN::Alloc2D< search_bus_info, SRAM_ROWS, BUS_COUNT >", "class_b_f_n_1_1_alloc2_d.html", null ]
     ] ],
     [ "BFN::Alloc2Dbase< std::pair< PHV::Container, int > >", "class_b_f_n_1_1_alloc2_dbase.html", [
-      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, EXACT_GROUPS, EXACT_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, TERNARY_GROUPS, TERNARY_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, EXACT_GROUPS, EXACT_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ],
-      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, TERNARY_GROUPS, TERNARY_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ]
+      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, TofinoIXBarSpec::EXACT_GROUPS, TofinoIXBarSpec::EXACT_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, TofinoIXBarSpec::TERNARY_GROUPS, TofinoIXBarSpec::TERNARY_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, TofinoIXBarSpec::EXACT_GROUPS, TofinoIXBarSpec::EXACT_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ],
+      [ "BFN::Alloc2D< std::pair< PHV::Container, int >, TofinoIXBarSpec::TERNARY_GROUPS, TofinoIXBarSpec::TERNARY_BYTES_PER_GROUP >", "class_b_f_n_1_1_alloc2_d.html", null ]
     ] ],
     [ "BFN::Alloc2Dbase< std::pair< Table *, int > >", "class_b_f_n_1_1_alloc2_dbase.html", [
       [ "BFN::Alloc2D< std::pair< Table *, int >, TCAM_ROWS, 2 >", "class_b_f_n_1_1_alloc2_d.html", null ],
@@ -539,6 +539,7 @@ var hierarchy =
       [ "TofinoDevice", "class_tofino_device.html", null ]
     ] ],
     [ "Device::GatewaySpec", "class_device.html#struct_device_1_1_gateway_spec", null ],
+    [ "Device::Options", "class_device.html#struct_device_1_1_options", null ],
     [ "Device::StatefulAluSpec", "struct_device_1_1_stateful_alu_spec.html", null ],
     [ "DirectedGraph", "group__parde.html#class_directed_graph", [
       [ "ParserGraphImpl< IR::BFN::Parser, IR::BFN::ParserState, IR::BFN::Transition >", "group__parde.html", null ],
@@ -875,8 +876,7 @@ var hierarchy =
     ] ],
     [ "option_t", "structoption__t.html", null ],
     [ "P4::AbstractParserDriver", "class_p4_1_1_abstract_parser_driver.html", [
-      [ "P4::P4ParserDriver", "class_p4_1_1_p4_parser_driver.html", null ],
-      [ "P4::V1::V1ParserDriver", "class_p4_1_1_v1_1_1_v1_parser_driver.html", null ]
+      [ "P4::P4ParserDriver", "class_p4_1_1_p4_parser_driver.html", null ]
     ] ],
     [ "P4::ActionInvocation", "class_p4_1_1_action_invocation.html", null ],
     [ "P4::ActionReplacement", "class_p4_1_1_action_replacement.html", null ],
@@ -1146,6 +1146,7 @@ var hierarchy =
         [ "P4::DoReplaceTypedef", "class_p4_1_1_do_replace_typedef.html", null ],
         [ "P4::DoSimplifyControlFlow", "class_p4_1_1_do_simplify_control_flow.html", null ],
         [ "P4::DoSimplifyExpressions", "class_p4_1_1_do_simplify_expressions.html", null ],
+        [ "P4::DoSimplifySelectCases", "class_p4_1_1_do_simplify_select_cases.html", null ],
         [ "P4::DoStaticAssert", "class_p4_1_1_do_static_assert.html", null ],
         [ "P4::DoTableHit", "class_p4_1_1_do_table_hit.html", null ],
         [ "P4::DontcareArgs", "class_p4_1_1_dontcare_args.html", null ],
@@ -1193,8 +1194,6 @@ var hierarchy =
         [ "TableMutex", "class_table_mutex.html", null ]
       ] ]
     ] ],
-    [ "P4::detail::DbprintDispatchPtr< T >", "struct_p4_1_1detail_1_1_dbprint_dispatch_ptr.html", null ],
-    [ "P4::detail::DbprintDispatchRef< T >", "struct_p4_1_1detail_1_1_dbprint_dispatch_ref.html", null ],
     [ "P4::DiagnosticCountInfo", "struct_p4_1_1_diagnostic_count_info.html", null ],
     [ "P4::DiagnosticCountInfoGuard", "struct_p4_1_1_diagnostic_count_info_guard.html", null ],
     [ "P4::DiagnosticCountInfoState", "struct_p4_1_1_diagnostic_count_info_state.html", null ],
@@ -1258,6 +1257,7 @@ var hierarchy =
     [ "P4::ExternMetrics", "namespace_p4.html#struct_p4_1_1_extern_metrics", null ],
     [ "P4::flat_map< K, V, Compare, Container >", "struct_p4_1_1flat__map.html", null ],
     [ "P4::flat_map< K, V, Compare, Container >::value_compare", "struct_p4_1_1flat__map_1_1value__compare.html", null ],
+    [ "P4::FormatDetail::StreamArgument< PreferDbprint, T >", "struct_p4_1_1_format_detail_1_1_stream_argument.html", null ],
     [ "P4::FrontEnd", "class_p4_1_1_front_end.html", null ],
     [ "P4::FunctionSpecialization", "struct_p4_1_1_function_specialization.html", null ],
     [ "P4::FunctionSpecializationMap", "struct_p4_1_1_function_specialization_map.html", null ],
@@ -1591,7 +1591,9 @@ var hierarchy =
     [ "P4::MarshaledFrom", "struct_p4_1_1_marshaled_from.html", null ],
     [ "P4::match_t", "struct_p4_1_1match__t.html", null ],
     [ "P4::MatchActionTableMetrics", "namespace_p4.html#struct_p4_1_1_match_action_table_metrics", null ],
-    [ "P4::MatchRegister", "class_p4_1_1_match_register.html", null ],
+    [ "P4::MatchRegisterSpec", "class_p4_1_1_match_register_spec.html", [
+      [ "P4::MatchRegister", "class_p4_1_1_match_register.html", null ]
+    ] ],
     [ "P4::Metrics", "namespace_p4.html#struct_p4_1_1_metrics", null ],
     [ "P4::MetricsPassManager", "class_p4_1_1_metrics_pass_manager.html", null ],
     [ "P4::Model::Elem", "struct_p4_1_1_model_1_1_elem.html", [
@@ -1722,6 +1724,7 @@ var hierarchy =
     ] ],
     [ "P4::P4Tools::ArchSpec", "class_p4_1_1_p4_tools_1_1_arch_spec.html", null ],
     [ "P4::P4Tools::ArchSpec::ArchMember", "class_p4_1_1_p4_tools_1_1_arch_spec.html#struct_p4_1_1_p4_tools_1_1_arch_spec_1_1_arch_member", null ],
+    [ "P4::P4Tools::detail::LogArgument< T >", "struct_p4_1_1_p4_tools_1_1detail_1_1_log_argument.html", null ],
     [ "P4::P4Tools::FormatOptions", "namespace_p4_1_1_p4_tools.html#struct_p4_1_1_p4_tools_1_1_format_options", null ],
     [ "P4::P4Tools::Model", "class_p4_1_1_p4_tools_1_1_model.html", null ],
     [ "P4::P4Tools::NamespaceContext", "class_p4_1_1_p4_tools_1_1_namespace_context.html", null ],
@@ -1804,6 +1807,7 @@ var hierarchy =
       [ "P4::P4Tools::P4Testgen::EBPF::STF", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_e_b_p_f_1_1_s_t_f.html", null ],
       [ "P4::P4Tools::P4Testgen::Pna::Metadata", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_metadata.html", null ],
       [ "P4::P4Tools::P4Testgen::Pna::PTF", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_p_t_f.html", null ],
+      [ "P4::P4Tools::P4Testgen::Pna::STF", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_s_t_f.html", null ],
       [ "P4::P4Tools::P4Testgen::Tofino::PTF", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_tofino_1_1_p_t_f.html", null ],
       [ "P4::P4Tools::P4Testgen::Tofino::STF", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_tofino_1_1_s_t_f.html", null ]
     ] ],
@@ -1867,6 +1871,7 @@ var hierarchy =
     ] ],
     [ "P4::P4V1::TableAttributes_Model", "struct_p4_1_1_p4_v1_1_1_table_attributes___model.html", null ],
     [ "P4::PacketModification", "namespace_p4.html#struct_p4_1_1_packet_modification", null ],
+    [ "P4::ParserConfig", "namespace_p4.html#struct_p4_1_1_parser_config", null ],
     [ "P4::ParserErrorMessage", "struct_p4_1_1_parser_error_message.html", null ],
     [ "P4::ParserInfo", "class_p4_1_1_parser_info.html", null ],
     [ "P4::ParserMetrics", "namespace_p4.html#struct_p4_1_1_parser_metrics", null ],
@@ -2166,6 +2171,7 @@ var hierarchy =
         ] ],
         [ "P4::StorageLocation", "class_p4_1_1_storage_location.html", null ],
         [ "P4::SymbolicValue", "class_p4_1_1_symbolic_value.html", null ],
+        [ "P4::TC::PNAEbpfGenerator", "class_p4_1_1_t_c_1_1_p_n_a_ebpf_generator.html", null ],
         [ "P4::TypeConstraint", "class_p4_1_1_type_constraint.html", null ],
         [ "P4::Util::IJson", "class_p4_1_1_util_1_1_i_json.html", [
           [ "P4::Util::JsonArray", "class_p4_1_1_util_1_1_json_array.html", null ],
@@ -2208,6 +2214,7 @@ var hierarchy =
     [ "P4::StackVariable", "class_p4_1_1_stack_variable.html", null ],
     [ "P4::StackVariableHash", "class_p4_1_1_stack_variable_hash.html", null ],
     [ "P4::StorageFactory", "class_p4_1_1_storage_factory.html", null ],
+    [ "P4::StrengthReductionPolicy", "class_p4_1_1_strength_reduction_policy.html", null ],
     [ "P4::string_map< V >", "class_p4_1_1string__map.html", null ],
     [ "P4::string_map< IJson * >", "class_p4_1_1string__map.html", [
       [ "P4::Util::JsonObject", "class_p4_1_1_util_1_1_json_object.html", null ]
@@ -2310,19 +2317,6 @@ var hierarchy =
     ] ],
     [ "P4::Util::Detail::TupleHasher< index, Types >", "struct_p4_1_1_util_1_1_detail_1_1_tuple_hasher.html", null ],
     [ "P4::Util::Detail::TupleHasher< 0, Types... >", "struct_p4_1_1_util_1_1_detail_1_1_tuple_hasher_3_010_00_01_types_8_8_8_01_4.html", null ],
-    [ "P4::Util::Enumerator< T >", "class_p4_1_1_util_1_1_enumerator.html", [
-      [ "P4::Util::ConcatEnumerator< T >", "class_p4_1_1_util_1_1_concat_enumerator.html", null ],
-      [ "P4::Util::EmptyEnumerator< T >", "class_p4_1_1_util_1_1_empty_enumerator.html", null ],
-      [ "P4::Util::FilterEnumerator< T, Filter >", "class_p4_1_1_util_1_1_filter_enumerator.html", null ],
-      [ "P4::Util::SingleEnumerator< T >", "class_p4_1_1_util_1_1_single_enumerator.html", null ]
-    ] ],
-    [ "P4::Util::Enumerator< S >", "class_p4_1_1_util_1_1_enumerator.html", [
-      [ "P4::Util::AsEnumerator< T, S >", "class_p4_1_1_util_1_1_as_enumerator.html", null ],
-      [ "P4::Util::MapEnumerator< T, S, Mapper >", "class_p4_1_1_util_1_1_map_enumerator.html", null ]
-    ] ],
-    [ "P4::Util::Enumerator< std::iterator_traits< Iter >::value_type >", "class_p4_1_1_util_1_1_enumerator.html", [
-      [ "P4::Util::IteratorEnumerator< Iter >", "class_p4_1_1_util_1_1_iterator_enumerator.html", null ]
-    ] ],
     [ "P4::Util::EnumeratorHandle< T >", "class_p4_1_1_util_1_1_enumerator_handle.html", null ],
     [ "P4::Util::Hash", "struct_p4_1_1_util_1_1_hash.html", null ],
     [ "P4::Util::Hasher< Key, Enable >", "struct_p4_1_1_util_1_1_hasher.html", null ],
@@ -2415,6 +2409,7 @@ var hierarchy =
           [ "AddSelectorSalu", "class_add_selector_salu.html", null ],
           [ "AddSliceInitialization", "class_add_slice_initialization.html", null ],
           [ "AllocateClot", "class_allocate_clot.html", null ],
+          [ "AllocateParserMatchRegisters", "group___lower_parser_i_r.html#struct_allocate_parser_match_registers", null ],
           [ "ArithCompareAdjustment", "class_arith_compare_adjustment.html", null ],
           [ "AssignActionHandle", "class_assign_action_handle.html", null ],
           [ "AssignCounterLRTValues", "class_assign_counter_l_r_t_values.html", null ],
@@ -3018,6 +3013,7 @@ var hierarchy =
         [ "P4::DoCheckConstants", "class_p4_1_1_do_check_constants.html", null ],
         [ "P4::DoCheckCoreMethods", "class_p4_1_1_do_check_core_methods.html", null ],
         [ "P4::DumpPipe", "struct_p4_1_1_dump_pipe.html", null ],
+        [ "P4::DuplicateActionControlPlaneNameCheck", "class_p4_1_1_duplicate_action_control_plane_name_check.html", null ],
         [ "P4::EBPF::CodeGenInspector", "class_p4_1_1_e_b_p_f_1_1_code_gen_inspector.html", [
           [ "P4::EBPF::ActionTranslationVisitor", "class_p4_1_1_e_b_p_f_1_1_action_translation_visitor.html", [
             [ "P4::EBPF::ActionTranslationVisitorPSA", "class_p4_1_1_e_b_p_f_1_1_action_translation_visitor_p_s_a.html", null ],
@@ -3034,7 +3030,8 @@ var hierarchy =
             ] ],
             [ "P4::EBPF::DeparserPrepareBufferTranslator", "class_p4_1_1_e_b_p_f_1_1_deparser_prepare_buffer_translator.html", [
               [ "P4::EBPF::DeparserHdrEmitTranslator", "class_p4_1_1_e_b_p_f_1_1_deparser_hdr_emit_translator.html", null ],
-              [ "P4::TC::DeparserHdrEmitTranslatorPNA", "class_p4_1_1_t_c_1_1_deparser_hdr_emit_translator_p_n_a.html", null ]
+              [ "P4::TC::DeparserHdrEmitTranslatorPNA", "class_p4_1_1_t_c_1_1_deparser_hdr_emit_translator_p_n_a.html", null ],
+              [ "P4::TC::SizeScanner", "class_p4_1_1_t_c_1_1_size_scanner.html", null ]
             ] ],
             [ "P4::TC::ControlBodyTranslatorPNA", "class_p4_1_1_t_c_1_1_control_body_translator_p_n_a.html", [
               [ "P4::TC::ActionTranslationVisitorPNA", "class_p4_1_1_t_c_1_1_action_translation_visitor_p_n_a.html", null ]
@@ -3292,6 +3289,7 @@ var hierarchy =
         [ "P4::ComputeDefUse", "class_p4_1_1_compute_def_use.html", null ],
         [ "P4::DoLocalCopyPropagation", "class_p4_1_1_do_local_copy_propagation.html", null ],
         [ "P4::DoSimplifyExpressions", "class_p4_1_1_do_simplify_expressions.html", null ],
+        [ "P4::DoStrengthReduction", "class_p4_1_1_do_strength_reduction.html", null ],
         [ "P4::P4V1::CollectBridgedFields", "class_p4_1_1_p4_v1_1_1_collect_bridged_fields.html", null ],
         [ "P4::ReplaceHeaders", "class_p4_1_1_replace_headers.html", null ],
         [ "P4::ReplaceIndexRefs", "class_p4_1_1_replace_index_refs.html", null ],
@@ -3526,6 +3524,7 @@ var hierarchy =
         [ "P4::DoEliminateSerEnums", "class_p4_1_1_do_eliminate_ser_enums.html", null ],
         [ "P4::DoEliminateSwitch", "class_p4_1_1_do_eliminate_switch.html", null ],
         [ "P4::DoExpandEmit", "class_p4_1_1_do_expand_emit.html", null ],
+        [ "P4::DoExpandHeaderUnionStackPushPop", "class_p4_1_1_do_expand_header_union_stack_push_pop.html", null ],
         [ "P4::DoExpandLookahead", "class_p4_1_1_do_expand_lookahead.html", null ],
         [ "P4::DoFlattenHeaderUnion", "class_p4_1_1_do_flatten_header_union.html", [
           [ "P4::DoFlattenHeaderUnionStack", "class_p4_1_1_do_flatten_header_union_stack.html", null ]
@@ -3566,11 +3565,11 @@ var hierarchy =
         [ "P4::DoTableHit", "class_p4_1_1_do_table_hit.html", null ],
         [ "P4::DoTableKeyNames", "class_p4_1_1_do_table_key_names.html", null ],
         [ "P4::DontcareArgs", "class_p4_1_1_dontcare_args.html", null ],
-        [ "P4::DuplicateActionControlPlaneNameCheck", "class_p4_1_1_duplicate_action_control_plane_name_check.html", null ],
         [ "P4::DuplicateActions", "class_p4_1_1_duplicate_actions.html", null ],
         [ "P4::EBPF::ConvertToEbpfPSA", "class_p4_1_1_e_b_p_f_1_1_convert_to_ebpf_p_s_a.html", null ],
         [ "P4::EBPF::LowerExpressions", "class_p4_1_1_e_b_p_f_1_1_lower_expressions.html", null ],
         [ "P4::ElimCallExprInIfCond", "group___simplify_if_statement.html#class_p4_1_1_elim_call_expr_in_if_cond", null ],
+        [ "P4::ElimUnreachableStmts", "class_p4_1_1_elim_unreachable_stmts.html", null ],
         [ "P4::EliminateSubparserCalls", "class_p4_1_1_eliminate_subparser_calls.html", null ],
         [ "P4::EntryPriorities", "class_p4_1_1_entry_priorities.html", null ],
         [ "P4::FillEnumMap", "class_p4_1_1_fill_enum_map.html", null ],
@@ -3774,7 +3773,6 @@ var hierarchy =
     ] ],
     [ "PassManager", null, [
       [ "AdjustEgressPacketLength", "class_adjust_egress_packet_length.html", null ],
-      [ "AllocateParserMatchRegisters", "group___lower_parser_i_r.html#struct_allocate_parser_match_registers", null ],
       [ "CheckForUnimplementedFeatures", "class_check_for_unimplemented_features.html", null ],
       [ "CopyBlockPragmas", "group__midend.html#class_copy_block_pragmas", null ],
       [ "CreateThreadLocalInstances", "struct_create_thread_local_instances.html", null ],
@@ -3813,7 +3811,9 @@ var hierarchy =
       [ "PHV::SuperCluster", "class_p_h_v_1_1_super_cluster.html", null ]
     ] ],
     [ "PHV::CollectTableKeys::TableProp", "class_p_h_v_1_1_collect_table_keys.html#struct_p_h_v_1_1_collect_table_keys_1_1_table_prop", null ],
-    [ "PHV::Container", "class_p_h_v_1_1_container.html", null ],
+    [ "PHV::Container", "class_p_h_v_1_1_container.html", [
+      [ "PHV::SerializableContainer", "class_p_h_v_1_1_serializable_container.html", null ]
+    ] ],
     [ "PHV::ContainerEquivalenceTracker", "class_p_h_v_1_1_container_equivalence_tracker.html", null ],
     [ "PHV::ContainerGroup", "class_p_h_v_1_1_container_group.html", null ],
     [ "PHV::ContainerOccupancy", "class_p_h_v_1_1_container_occupancy.html", null ],
@@ -3899,6 +3899,7 @@ var hierarchy =
       [ "TofinoPhvSpec", "class_tofino_phv_spec.html", null ]
     ] ],
     [ "PhvSpec::MauGroupType", "struct_phv_spec_1_1_mau_group_type.html", null ],
+    [ "PhvSpec::PhVCache", "class_phv_spec.html#struct_phv_spec_1_1_ph_v_cache", null ],
     [ "PhvSpec::RangeSpec", "class_phv_spec.html#struct_phv_spec_1_1_range_spec", null ],
     [ "PHVTrigger", "struct_p_h_v_trigger.html", null ],
     [ "pna_global_metadata", "structpna__global__metadata.html", null ],
@@ -3970,6 +3971,7 @@ var hierarchy =
     [ "Stage_data", "class_stage__data.html", [
       [ "Stage", "class_stage.html", null ]
     ] ],
+    [ "StageUse", "struct_stage_use.html", null ],
     [ "StageUseEstimate", "struct_stage_use_estimate.html", null ],
     [ "StageUseEstimate::RAM_counter", "struct_stage_use_estimate_1_1_r_a_m__counter.html", null ],
     [ "StartLen", "struct_start_len.html", null ],
@@ -3990,6 +3992,21 @@ var hierarchy =
     ] ],
     [ "std::enable_if", null, [
       [ "P4::RTTI::enable_if_has_rtti< T, R >", "struct_p4_1_1_r_t_t_i_1_1enable__if__has__rtti.html", null ]
+    ] ],
+    [ "std::enable_shared_from_this", null, [
+      [ "P4::Util::Enumerator< S >", "class_p4_1_1_util_1_1_enumerator.html", [
+        [ "P4::Util::AsEnumerator< T, S >", "class_p4_1_1_util_1_1_as_enumerator.html", null ],
+        [ "P4::Util::MapEnumerator< T, S, Mapper >", "class_p4_1_1_util_1_1_map_enumerator.html", null ]
+      ] ],
+      [ "P4::Util::Enumerator< std::iterator_traits< Iter >::value_type >", "class_p4_1_1_util_1_1_enumerator.html", [
+        [ "P4::Util::IteratorEnumerator< Iter >", "class_p4_1_1_util_1_1_iterator_enumerator.html", null ]
+      ] ],
+      [ "P4::Util::Enumerator< T >", "class_p4_1_1_util_1_1_enumerator.html", [
+        [ "P4::Util::ConcatEnumerator< T >", "class_p4_1_1_util_1_1_concat_enumerator.html", null ],
+        [ "P4::Util::EmptyEnumerator< T >", "class_p4_1_1_util_1_1_empty_enumerator.html", null ],
+        [ "P4::Util::FilterEnumerator< T, Filter >", "class_p4_1_1_util_1_1_filter_enumerator.html", null ],
+        [ "P4::Util::SingleEnumerator< T >", "class_p4_1_1_util_1_1_single_enumerator.html", null ]
+      ] ]
     ] ],
     [ "std::exception", null, [
       [ "P4::Util::P4CExceptionBase", "class_p4_1_1_util_1_1_p4_c_exception_base.html", [
@@ -4046,7 +4063,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "std::iostream", null, [
-      [ "fdstream", "classfdstream.html", null ]
+      [ "P4::FdStream", "class_p4_1_1_fd_stream.html", null ]
     ] ],
     [ "std::is_base_of", null, [
       [ "P4::RTTI::has_rtti< T >", "struct_p4_1_1_r_t_t_i_1_1has__rtti.html", null ]
@@ -4348,7 +4365,8 @@ var hierarchy =
             [ "P4::P4Tools::Test::ArithmTest::Z3SolverSubSat02", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat02.html", null ],
             [ "P4::P4Tools::Test::ArithmTest::Z3SolverSubSat03", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat03.html", null ],
             [ "P4::P4Tools::Test::ArithmTest::Z3SolverSubSat04", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat04.html", null ],
-            [ "P4::P4Tools::Test::ArithmTest::Z3SolverSubSat05", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat05.html", null ]
+            [ "P4::P4Tools::Test::ArithmTest::Z3SolverSubSat05", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat05.html", null ],
+            [ "P4::P4Tools::Test::ArithmTest::Z3SolverSubSat06", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat06.html", null ]
           ] ],
           [ "P4::P4Tools::Test::Z3SolverTest", "class_p4_1_1_p4_tools_1_1_test_1_1_z3_solver_test.html", null ],
           [ "P4::P4Tools::Test::Z3SolverTests", "class_p4_1_1_p4_tools_1_1_test_1_1_z3_solver_tests.html", [

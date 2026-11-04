@@ -640,10 +640,6 @@ var annotated_dup =
         [ "setflags_helper", "class_p4_1_1_d_b_print_1_1setflags__helper.html", null ],
         [ "setprec", "struct_p4_1_1_d_b_print_1_1setprec.html", null ]
       ] ],
-      [ "detail", null, [
-        [ "DbprintDispatchPtr", "struct_p4_1_1detail_1_1_dbprint_dispatch_ptr.html", null ],
-        [ "DbprintDispatchRef", "struct_p4_1_1detail_1_1_dbprint_dispatch_ref.html", null ]
-      ] ],
       [ "DPDK", "namespace_p4_1_1_d_p_d_k.html", [
         [ "actionAttributes", "namespace_p4_1_1_d_p_d_k.html#struct_p4_1_1_d_p_d_k_1_1action_attributes", null ],
         [ "AddFieldsToPseudoHeader", "class_p4_1_1_d_p_d_k_1_1_add_fields_to_pseudo_header.html", null ],
@@ -852,6 +848,9 @@ var annotated_dup =
         [ "XDPIngressPipeline", "class_p4_1_1_e_b_p_f_1_1_x_d_p_ingress_pipeline.html", "class_p4_1_1_e_b_p_f_1_1_x_d_p_ingress_pipeline" ],
         [ "XdpTarget", "class_p4_1_1_e_b_p_f_1_1_xdp_target.html", null ]
       ] ],
+      [ "FormatDetail", null, [
+        [ "StreamArgument", "struct_p4_1_1_format_detail_1_1_stream_argument.html", null ]
+      ] ],
       [ "graphs", "namespace_p4_1_1graphs.html", [
         [ "ControlGraphs", "class_p4_1_1graphs_1_1_control_graphs.html", "class_p4_1_1graphs_1_1_control_graphs" ],
         [ "EdgeIf", "class_p4_1_1graphs_1_1_edge_if.html", null ],
@@ -867,7 +866,7 @@ var annotated_dup =
       [ "IndentCtl", null, [
         [ "TempIndent", "class_p4_1_1_indent_ctl_1_1_temp_indent.html", null ]
       ] ],
-      [ "IR", null, [
+      [ "IR", "namespace_p4_1_1_i_r.html", [
         [ "MAU", null, [
           [ "Table", null, [
             [ "payload_info_t", "struct_p4_1_1_i_r_1_1_m_a_u_1_1_table_1_1payload__info__t.html", "struct_p4_1_1_i_r_1_1_m_a_u_1_1_table_1_1payload__info__t" ]
@@ -930,6 +929,9 @@ var annotated_dup =
         [ "SkipControls", "class_p4_1_1_p4_test_1_1_skip_controls.html", "class_p4_1_1_p4_test_1_1_skip_controls" ]
       ] ],
       [ "P4Tools", "namespace_p4_1_1_p4_tools.html", [
+        [ "detail", null, [
+          [ "LogArgument", "struct_p4_1_1_p4_tools_1_1detail_1_1_log_argument.html", null ]
+        ] ],
         [ "P4Smith", null, [
           [ "BMv2", null, [
             [ "AbstractBMv2SmithTarget", "class_p4_1_1_p4_tools_1_1_p4_smith_1_1_b_mv2_1_1_abstract_b_mv2_smith_target.html", null ],
@@ -1035,7 +1037,8 @@ var annotated_dup =
             [ "SharedPnaCmdStepper", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_cmd_stepper.html", null ],
             [ "SharedPnaExprStepper", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_expr_stepper.html", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_expr_stepper" ],
             [ "SharedPnaProgramInfo", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_program_info.html", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_program_info" ],
-            [ "SharedPnaTableStepper", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_table_stepper.html", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_table_stepper" ]
+            [ "SharedPnaTableStepper", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_table_stepper.html", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_shared_pna_table_stepper" ],
+            [ "STF", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_s_t_f.html", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_pna_1_1_s_t_f" ]
           ] ],
           [ "Tofino", null, [
             [ "AbstractTofinoProgramInfo", "class_p4_1_1_p4_tools_1_1_p4_testgen_1_1_tofino_1_1_abstract_tofino_program_info.html", null ],
@@ -1133,7 +1136,8 @@ var annotated_dup =
             [ "Z3SolverSubSat02", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat02.html", null ],
             [ "Z3SolverSubSat03", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat03.html", null ],
             [ "Z3SolverSubSat04", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat04.html", null ],
-            [ "Z3SolverSubSat05", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat05.html", null ]
+            [ "Z3SolverSubSat05", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat05.html", null ],
+            [ "Z3SolverSubSat06", "class_p4_1_1_p4_tools_1_1_test_1_1_arithm_test_1_1_z3_solver_sub_sat06.html", null ]
           ] ],
           [ "Z3Test", null, [
             [ "Z3SolverAdd", "class_p4_1_1_p4_tools_1_1_test_1_1_z3_test_1_1_z3_solver_add.html", null ],
@@ -1382,6 +1386,7 @@ var annotated_dup =
         [ "PnaProgramStructure", "class_p4_1_1_t_c_1_1_pna_program_structure.html", null ],
         [ "PnaStateTranslationVisitor", "class_p4_1_1_t_c_1_1_pna_state_translation_visitor.html", null ],
         [ "ScanWidths", "class_p4_1_1_t_c_1_1_scan_widths.html", null ],
+        [ "SizeScanner", "class_p4_1_1_t_c_1_1_size_scanner.html", null ],
         [ "stmtlist", "namespace_p4_1_1_t_c.html#struct_p4_1_1_t_c_1_1stmtlist", null ],
         [ "TableAttributes", "struct_p4_1_1_t_c_1_1_table_attributes.html", null ],
         [ "TCIngressPipelinePNA", "class_p4_1_1_t_c_1_1_t_c_ingress_pipeline_p_n_a.html", "class_p4_1_1_t_c_1_1_t_c_ingress_pipeline_p_n_a" ],
@@ -1521,7 +1526,7 @@ var annotated_dup =
         [ "BitRange", "struct_p4_1_1_util_1_1_bit_range.html", null ],
         [ "Comment", "class_p4_1_1_util_1_1_comment.html", "class_p4_1_1_util_1_1_comment" ],
         [ "CompilationError", "class_p4_1_1_util_1_1_compilation_error.html", null ],
-        [ "CompilerBug", "class_p4_1_1_util_1_1_compiler_bug.html", null ],
+        [ "CompilerBug", "class_p4_1_1_util_1_1_compiler_bug.html", "class_p4_1_1_util_1_1_compiler_bug" ],
         [ "CompilerUnimplemented", "class_p4_1_1_util_1_1_compiler_unimplemented.html", null ],
         [ "ConcatEnumerator", "class_p4_1_1_util_1_1_concat_enumerator.html", "class_p4_1_1_util_1_1_concat_enumerator" ],
         [ "ContainerType", "class_p4_1_1_util_1_1_container_type.html", null ],
@@ -1576,7 +1581,7 @@ var annotated_dup =
         [ "Namespace", "class_p4_1_1_util_1_1_namespace.html", null ],
         [ "Object", "class_p4_1_1_util_1_1_object.html", null ],
         [ "Options", "class_p4_1_1_util_1_1_options.html", "class_p4_1_1_util_1_1_options" ],
-        [ "P4CExceptionBase", "class_p4_1_1_util_1_1_p4_c_exception_base.html", null ],
+        [ "P4CExceptionBase", "class_p4_1_1_util_1_1_p4_c_exception_base.html", "class_p4_1_1_util_1_1_p4_c_exception_base" ],
         [ "ProgramStructure", "class_p4_1_1_util_1_1_program_structure.html", null ],
         [ "ScopedTimer", "class_p4_1_1_util_1_1_scoped_timer.html", null ],
         [ "ScopedTimerCtx", "struct_p4_1_1_util_1_1_scoped_timer_ctx.html", null ],
@@ -1587,9 +1592,6 @@ var annotated_dup =
         [ "SourceInfo", "class_p4_1_1_util_1_1_source_info.html", "class_p4_1_1_util_1_1_source_info" ],
         [ "SourcePosition", "class_p4_1_1_util_1_1_source_position.html", "class_p4_1_1_util_1_1_source_position" ],
         [ "TimerEntry", "struct_p4_1_1_util_1_1_timer_entry.html", "struct_p4_1_1_util_1_1_timer_entry" ]
-      ] ],
-      [ "V1", null, [
-        [ "V1ParserDriver", "class_p4_1_1_v1_1_1_v1_parser_driver.html", "class_p4_1_1_v1_1_1_v1_parser_driver" ]
       ] ],
       [ "AbstractInliner", "class_p4_1_1_abstract_inliner.html", null ],
       [ "AbstractParserDriver", "class_p4_1_1_abstract_parser_driver.html", "class_p4_1_1_abstract_parser_driver" ],
@@ -1609,7 +1611,7 @@ var annotated_dup =
       [ "ApplyOptionsPragmas", "class_p4_1_1_apply_options_pragmas.html", null ],
       [ "ApplyTypesToExpressions", "class_p4_1_1_apply_types_to_expressions.html", null ],
       [ "ArrayLocation", "class_p4_1_1_array_location.html", null ],
-      [ "AutoCompileContext", "struct_p4_1_1_auto_compile_context.html", null ],
+      [ "AutoCompileContext", "struct_p4_1_1_auto_compile_context.html", "struct_p4_1_1_auto_compile_context" ],
       [ "backtrace_exception", "class_p4_1_1backtrace__exception.html", null ],
       [ "Backtrack", "class_p4_1_1_backtrack.html", "class_p4_1_1_backtrack" ],
       [ "BaseCompileContext", "class_p4_1_1_base_compile_context.html", "class_p4_1_1_base_compile_context" ],
@@ -1693,6 +1695,7 @@ var annotated_dup =
       [ "DoEliminateSerEnums", "class_p4_1_1_do_eliminate_ser_enums.html", "class_p4_1_1_do_eliminate_ser_enums" ],
       [ "DoEliminateSwitch", "class_p4_1_1_do_eliminate_switch.html", null ],
       [ "DoExpandEmit", "class_p4_1_1_do_expand_emit.html", null ],
+      [ "DoExpandHeaderUnionStackPushPop", "class_p4_1_1_do_expand_header_union_stack_push_pop.html", null ],
       [ "DoExpandLookahead", "class_p4_1_1_do_expand_lookahead.html", null ],
       [ "DoFlattenHeaderUnion", "class_p4_1_1_do_flatten_header_union.html", null ],
       [ "DoFlattenHeaderUnionStack", "class_p4_1_1_do_flatten_header_union_stack.html", null ],
@@ -1745,6 +1748,7 @@ var annotated_dup =
       [ "EliminateSwitch", "class_p4_1_1_eliminate_switch.html", null ],
       [ "EliminateTuples", "class_p4_1_1_eliminate_tuples.html", null ],
       [ "EliminateTypedef", "class_p4_1_1_eliminate_typedef.html", null ],
+      [ "ElimUnreachableStmts", "class_p4_1_1_elim_unreachable_stmts.html", null ],
       [ "EntryPriorities", "class_p4_1_1_entry_priorities.html", null ],
       [ "EnumInstance", "class_p4_1_1_enum_instance.html", null ],
       [ "EnumOn32Bits", "class_p4_1_1_enum_on32_bits.html", null ],
@@ -1770,6 +1774,7 @@ var annotated_dup =
       [ "ExternInstantiation", "class_p4_1_1_extern_instantiation.html", null ],
       [ "ExternMethod", "class_p4_1_1_extern_method.html", "class_p4_1_1_extern_method" ],
       [ "ExternMetrics", "namespace_p4.html#struct_p4_1_1_extern_metrics", null ],
+      [ "FdStream", "class_p4_1_1_fd_stream.html", null ],
       [ "FillEnumMap", "class_p4_1_1_fill_enum_map.html", null ],
       [ "FilterLikelyAnnot", "class_p4_1_1_filter_likely_annot.html", null ],
       [ "FindActionParameters", "class_p4_1_1_find_action_parameters.html", null ],
@@ -1886,6 +1891,7 @@ var annotated_dup =
       [ "MatchActionTableMetrics", "namespace_p4.html#struct_p4_1_1_match_action_table_metrics", null ],
       [ "MatchActionTableMetricsPass", "class_p4_1_1_match_action_table_metrics_pass.html", null ],
       [ "MatchRegister", "class_p4_1_1_match_register.html", "class_p4_1_1_match_register" ],
+      [ "MatchRegisterSpec", "class_p4_1_1_match_register_spec.html", null ],
       [ "MethodInstance", "class_p4_1_1_method_instance.html", "class_p4_1_1_method_instance" ],
       [ "Metrics", "namespace_p4.html#struct_p4_1_1_metrics", null ],
       [ "MetricsPassManager", "class_p4_1_1_metrics_pass_manager.html", null ],
@@ -1932,6 +1938,7 @@ var annotated_dup =
       [ "ParsePortableArchitecture", "class_p4_1_1_parse_portable_architecture.html", null ],
       [ "ParsePsaArchitecture", "class_p4_1_1_parse_psa_architecture.html", null ],
       [ "ParserAnalyzer", "class_p4_1_1_parser_analyzer.html", null ],
+      [ "ParserConfig", "namespace_p4.html#struct_p4_1_1_parser_config", null ],
       [ "ParserErrorMessage", "struct_p4_1_1_parser_error_message.html", null ],
       [ "ParserInfo", "class_p4_1_1_parser_info.html", null ],
       [ "ParserInstantiation", "class_p4_1_1_parser_instantiation.html", null ],
@@ -2052,12 +2059,13 @@ var annotated_dup =
       [ "StorageLocation", "class_p4_1_1_storage_location.html", "class_p4_1_1_storage_location" ],
       [ "StorageMap", "class_p4_1_1_storage_map.html", null ],
       [ "StrengthReduction", "class_p4_1_1_strength_reduction.html", null ],
+      [ "StrengthReductionPolicy", "class_p4_1_1_strength_reduction_policy.html", "class_p4_1_1_strength_reduction_policy" ],
       [ "string_map", "class_p4_1_1string__map.html", "class_p4_1_1string__map" ],
       [ "StringRef", "struct_p4_1_1_string_ref.html", "struct_p4_1_1_string_ref" ],
       [ "StructInitializers", "class_p4_1_1_struct_initializers.html", null ],
       [ "StructLocation", "class_p4_1_1_struct_location.html", null ],
       [ "StructTypeReplacement", "struct_p4_1_1_struct_type_replacement.html", "struct_p4_1_1_struct_type_replacement" ],
-      [ "SubstituteParameters", "class_p4_1_1_substitute_parameters.html", null ],
+      [ "SubstituteParameters", "class_p4_1_1_substitute_parameters.html", "class_p4_1_1_substitute_parameters" ],
       [ "SubstituteStructures", "class_p4_1_1_substitute_structures.html", null ],
       [ "SwitchAddDefault", "class_p4_1_1_switch_add_default.html", null ],
       [ "SymBitMatrix", "class_p4_1_1_sym_bit_matrix.html", null ],
@@ -2261,6 +2269,7 @@ var annotated_dup =
       [ "ParserPackingValidatorInterface", "class_p_h_v_1_1_parser_packing_validator_interface.html", "class_p_h_v_1_1_parser_packing_validator_interface" ],
       [ "Pragmas", "class_p_h_v_1_1_pragmas.html", null ],
       [ "RotationalCluster", "class_p_h_v_1_1_rotational_cluster.html", "class_p_h_v_1_1_rotational_cluster" ],
+      [ "SerializableContainer", "class_p_h_v_1_1_serializable_container.html", "class_p_h_v_1_1_serializable_container" ],
       [ "SliceResult", "namespace_p_h_v.html#struct_p_h_v_1_1_slice_result", "namespace_p_h_v_struct_p_h_v_1_1_slice_result_dup" ],
       [ "SourceOp", "struct_p_h_v_1_1_source_op.html", "struct_p_h_v_1_1_source_op" ],
       [ "SuperCluster", "class_p_h_v_1_1_super_cluster.html", "class_p_h_v_1_1_super_cluster" ],
@@ -2593,7 +2602,6 @@ var annotated_dup =
     [ "ExpressionsToHash", "class_expressions_to_hash.html", null ],
     [ "ExtractBridgeInfo", "class_extract_bridge_info.html", "class_extract_bridge_info" ],
     [ "FakeTable", "class_fake_table.html", null ],
-    [ "fdstream", "classfdstream.html", null ],
     [ "FieldAlignment", "struct_field_alignment.html", "struct_field_alignment" ],
     [ "FieldDefUse", "group__parde.html#class_field_def_use", "group__parde_class_field_def_use" ],
     [ "FieldExtractInfo", "class_field_extract_info.html", "class_field_extract_info" ],
@@ -2950,6 +2958,7 @@ var annotated_dup =
     [ "StackPushShims", "group__parde.html#class_stack_push_shims", null ],
     [ "Stage", "class_stage.html", "class_stage" ],
     [ "Stage_data", "class_stage__data.html", null ],
+    [ "StageUse", "struct_stage_use.html", null ],
     [ "StageUseEstimate", "struct_stage_use_estimate.html", "struct_stage_use_estimate" ],
     [ "StartLen", "struct_start_len.html", null ],
     [ "StateExtractUsage", "struct_state_extract_usage.html", null ],
@@ -2987,9 +2996,9 @@ var annotated_dup =
     [ "ThreadVisitor", "class_thread_visitor.html", null ],
     [ "tofino_phv_output_map", "structtofino__phv__output__map.html", null ],
     [ "TofinoArchSpec", "class_tofino_arch_spec.html", null ],
-    [ "TofinoDevice", "class_tofino_device.html", "class_tofino_device" ],
+    [ "TofinoDevice", "class_tofino_device.html", null ],
     [ "TofinoIMemSpec", "class_tofino_i_mem_spec.html", null ],
-    [ "TofinoIXBarSpec", "class_tofino_i_x_bar_spec.html", "class_tofino_i_x_bar_spec" ],
+    [ "TofinoIXBarSpec", "class_tofino_i_x_bar_spec.html", null ],
     [ "TofinoMauPowerSpec", "class_tofino_mau_power_spec.html", "class_tofino_mau_power_spec" ],
     [ "TofinoMauSpec", "class_tofino_mau_spec.html", null ],
     [ "TofinoPardeSpec", "class_tofino_parde_spec.html", "class_tofino_parde_spec" ],
